@@ -8,7 +8,7 @@
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f.svg)](LICENSE)
 
-[Latest evidence](data/latest.md) · [Source coverage](data/source_coverage.md) · [Reviewed signals](data/reviewed_signals.csv) · [Decision gate](https://github.com/irina958-design/ai-needs-radar/issues/9)
+[Roadmap](ROADMAP.md) · [Latest evidence](data/latest.md) · [Source coverage](data/source_coverage.md) · [Reviewed signals](data/reviewed_signals.csv)
 
 </div>
 
@@ -176,16 +176,11 @@ python -m unittest discover -s tests -v
 
 Generated files are written to `data/`. The default collection makes 21 GitHub GraphQL requests and can be reduced for a quick check with `python radar.py --limit 10`.
 
-## Roadmap gate
+## Roadmap
 
-Roadmap work starts after [`four distinct weekly summaries`](https://github.com/irina958-design/ai-needs-radar/issues/9) exist. At that point we will:
+The full [`ROADMAP.md`](ROADMAP.md) defines dated phases, measurable go/no-go conditions, experiment limits, and stop rules. The current milestone is the [`four-week evidence gate`](https://github.com/irina958-design/ai-needs-radar/issues/9) on **10 August 2026**.
 
-1. compare category rank, breadth, and score movement;
-2. re-review the leading cross-segment matches;
-3. re-check existing substitutes;
-4. choose one narrow experiment only if the evidence remains strong.
-
-Until then, the useful action is collecting evidence—not adding a GUI or speculative platform features.
+Until that gate, the useful action is collecting comparable evidence—not adding a GUI or speculative platform features.
 
 ## Questions the next research pass must answer
 
