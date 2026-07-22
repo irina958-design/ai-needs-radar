@@ -1,0 +1,9 @@
+[project]
+name = "ai-needs-radar"
+version = "0.1.0"
+description = "Transparent issue-level signals for recurring needs across active AI repositories"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 120

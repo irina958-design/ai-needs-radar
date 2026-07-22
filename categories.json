@@ -1,0 +1,51 @@
+[
+  {
+    "id": "context_portability",
+    "label": "Context, memory, and session continuity",
+    "pattern": "\\b(?:context|memory|memories|resume|resuming|session|checkpoint|handoff|history|conversation|compaction|lost state)\\b",
+    "saturation": 4,
+    "substitutes": ["native resume features", "yigitkonur/cli-continues"]
+  },
+  {
+    "id": "permissions_control",
+    "label": "Permissions and action control",
+    "pattern": "\\b(?:permission|approval|allowlist|denylist|sandbox|credential|secret|oauth|authorization|auth|access control|trust)\\b",
+    "saturation": 3,
+    "substitutes": ["native sandboxes", "config-sync tools", "container runtimes"]
+  },
+  {
+    "id": "observability_replay",
+    "label": "Observability, audit, and replay",
+    "pattern": "\\b(?:trace|tracing|observability|replay|audit|telemetry|debug|logs?|history)\\b",
+    "saturation": 5,
+    "substitutes": ["Langfuse", "Phoenix", "Opik", "OpenTelemetry"]
+  },
+  {
+    "id": "evals_reliability",
+    "label": "Evals and reproducible quality",
+    "pattern": "\\b(?:eval|evaluation|regression|flaky|flakiness|determin|benchmark|judge|quality|reproduc)\\w*",
+    "saturation": 5,
+    "substitutes": ["promptfoo", "DeepEval", "Ragas", "Garak"]
+  },
+  {
+    "id": "cost_routing",
+    "label": "Cost, rate limits, and model routing",
+    "pattern": "\\b(?:cost|token usage|rate limit|quota|routing|router|fallback|provider|latency|cache|caching)\\b",
+    "saturation": 5,
+    "substitutes": ["LiteLLM", "Portkey", "OpenRouter", "Manifest"]
+  },
+  {
+    "id": "verification_review",
+    "label": "Verification and evidence of completion",
+    "pattern": "\\b(?:test|tests|testing|verify|verification|validation|lint|typecheck|review|diff|build|ci|evidence|proof|completion claim)\\b",
+    "saturation": 3,
+    "substitutes": ["CI systems", "DoneCheck", "proof-of-done skills"]
+  },
+  {
+    "id": "mcp_interop",
+    "label": "MCP and tool interoperability",
+    "pattern": "\\b(?:mcp|model context protocol|tool schema|stdio|sse|transport)\\b",
+    "saturation": 5,
+    "substitutes": ["official MCP SDKs", "FastMCP", "MCP registries"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  "openai/codex",
+  "anthropics/claude-code",
+  "anomalyco/opencode",
+  "cline/cline",
+  "OpenHands/OpenHands",
+  "browser-use/browser-use",
+  "openai/openai-agents-python",
+  "microsoft/autogen",
+  "langchain-ai/langgraph",
+  "agno-agi/agno",
+  "BerriAI/litellm",
+  "langfuse/langfuse",
+  "promptfoo/promptfoo",
+  "modelcontextprotocol/servers",
+  "PrefectHQ/fastmcp",
+  "ComposioHQ/composio"
+]
