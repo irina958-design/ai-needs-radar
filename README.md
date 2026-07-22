@@ -76,14 +76,12 @@ Adding Ollama, Open WebUI, Dify, AnythingLLM, and ComfyUI tested whether the ini
 ## How the radar works
 
 ```mermaid
-flowchart TD
-    A["21 active repositories<br/>100 recent issues each"] --> B["Transparent title rules<br/>categories.json"]
-    B --> C["Breadth, repetition<br/>and saturation score"]
-    C --> D["Manual quality review<br/>organic / promotional / false positive"]
-    D --> E["Dated weekly summaries<br/>data/history/"]
-    E --> F{"Four-week<br/>decision gate"}
-    F -->|"Broad + organic + underserved"| G["One narrow experiment"]
-    F -->|"Weak, noisy, or crowded"| H["Keep observing"]
+flowchart LR
+    A["Collect<br/>21 × 100 issues"] --> B["Classify + score<br/>public rules"]
+    B --> C["Review + track<br/>quality and history"]
+    C --> D{"Four-week<br/>gate"}
+    D -->|"Strong"| E["Narrow<br/>experiment"]
+    D -->|"Weak"| F["Observe"]
 ```
 
 ### 1. Collect
