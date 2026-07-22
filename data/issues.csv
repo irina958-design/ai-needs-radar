@@ -99,6 +99,9 @@ openai/codex,34706,Add a keyboard shortcut to toggle Expand Panel in the built-i
 openai/codex,33968,Codex VS Code sidebar intermittently hangs on the logo or renders blank on Linux/Wayland,open,10,2026-07-18T07:18:38Z,2026-07-22T09:11:40Z,https://github.com/openai/codex/issues/33968
 openai/codex,34705,GPT 5.6 Sol Very high. Excessive Process Complexity and Goal Drift When Preparing an Implementation Prompt,open,1,2026-07-22T09:08:49Z,2026-07-22T09:10:07Z,https://github.com/openai/codex/issues/34705
 openai/codex,34704,"[Windows 26.715] app-server retains repeated full stdio MCP batches, consuming 10.6 GB private memory",open,1,2026-07-22T09:04:42Z,2026-07-22T09:05:53Z,https://github.com/openai/codex/issues/34704
+anthropics/claude-code,80188,[BUG] CLI crashes on startup with ERROR is not defined on v2.1.217,open,0,2026-07-22T14:33:56Z,2026-07-22T14:33:56Z,https://github.com/anthropics/claude-code/issues/80188
+anthropics/claude-code,80187,[FEATURE] Disambiguate project names in sidebar: show owner/repo or allow custom display names,open,0,2026-07-22T14:33:38Z,2026-07-22T14:33:38Z,https://github.com/anthropics/claude-code/issues/80187
+anthropics/claude-code,80186,Configuración nativa de idioma en vez de depender de instrucciones en CLAUDE.md,open,0,2026-07-22T14:33:03Z,2026-07-22T14:33:03Z,https://github.com/anthropics/claude-code/issues/80186
 anthropics/claude-code,66726,"[BUG] Claude Desktop: MCP tool calls intermittently never dispatched — silent 4-min hangs, all local servers wedge until full restart (both-side logs)",closed,5,2026-06-10T00:03:23Z,2026-07-22T14:30:30Z,https://github.com/anthropics/claude-code/issues/66726
 anthropics/claude-code,80185,Add a theme token for hyperlink/link text styling,open,0,2026-07-22T14:27:11Z,2026-07-22T14:27:11Z,https://github.com/anthropics/claude-code/issues/80185
 anthropics/claude-code,78946,loop trying to login.,open,3,2026-07-18T22:27:02Z,2026-07-22T14:25:35Z,https://github.com/anthropics/claude-code/issues/78946
@@ -198,9 +201,7 @@ anthropics/claude-code,80143,[BUG] text overflowing from container in claude vsc
 anthropics/claude-code,80142,iOS Simulator panel stuck in infinite crash-loop — sidecar startVideo always times out after 10s,open,0,2026-07-22T12:00:41Z,2026-07-22T12:00:41Z,https://github.com/anthropics/claude-code/issues/80142
 anthropics/claude-code,78826,MCP server connects successfully but its tools are never exposed to the model,open,3,2026-07-18T13:00:23Z,2026-07-22T11:59:44Z,https://github.com/anthropics/claude-code/issues/78826
 anthropics/claude-code,24968,[FEATURE] Accessbility - turn duration verbs should also be customizable,open,13,2026-02-11T11:45:29Z,2026-07-22T11:59:35Z,https://github.com/anthropics/claude-code/issues/24968
-anthropics/claude-code,80138,"PreToolUse hook permissionDecision ""ask"" and permissions.ask rules silently auto-resolve to allow in non-interactive sessions",open,0,2026-07-22T11:52:33Z,2026-07-22T11:52:33Z,https://github.com/anthropics/claude-code/issues/80138
-anthropics/claude-code,80137,"[FEATURE] Optional local RDP exposure check + brute-force attempt summary (Windows, opt-in)",open,0,2026-07-22T11:48:04Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/80137
-anthropics/claude-code,77453,Statusline: expose per-model rate limit usage in rate_limits (e.g. separate Opus/Fable windows),open,3,2026-07-14T11:29:41Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/77453
+anomalyco/opencode,38332,GPT system prompt has unavailable tool,open,0,2026-07-22T14:33:18Z,2026-07-22T14:33:18Z,https://github.com/anomalyco/opencode/issues/38332
 anomalyco/opencode,38293,здравствуйте у меня не работает подписка Go,open,3,2026-07-22T11:39:31Z,2026-07-22T14:31:08Z,https://github.com/anomalyco/opencode/issues/38293
 anomalyco/opencode,32932,[Bug]: opencode serve does not release port on exit — zombie self-loopback connection locks LISTENING socket (Windows),open,3,2026-06-19T02:28:18Z,2026-07-22T14:30:53Z,https://github.com/anomalyco/opencode/issues/32932
 anomalyco/opencode,38329,[Bug] OpenCode Go: kimi-k2.6 fails with HTTP 400 'cannot specify both thinking and reasoning_effort' — works via plain client,open,2,2026-07-22T14:16:09Z,2026-07-22T14:26:10Z,https://github.com/anomalyco/opencode/issues/38329
@@ -300,7 +301,6 @@ anomalyco/opencode,37713,feat(ai): add image generation domain,closed,1,2026-07-
 anomalyco/opencode,37511,fix(simulation): interpret named special keys in ui.press,closed,1,2026-07-17T15:25:33Z,2026-07-22T04:59:30Z,https://github.com/anomalyco/opencode/issues/37511
 anomalyco/opencode,37235,"V2: recursive subagents bypass documented guard and create 7,377 child sessions",closed,1,2026-07-16T06:44:05Z,2026-07-22T04:59:28Z,https://github.com/anomalyco/opencode/issues/37235
 anomalyco/opencode,36482,"tui: ""Toggle MCPs"" command has no effect when pressing spacebar",closed,5,2026-07-12T01:59:27Z,2026-07-22T04:59:27Z,https://github.com/anomalyco/opencode/issues/36482
-anomalyco/opencode,36421,core: malformed tool input remains unresolved until the next prompt,closed,1,2026-07-11T14:44:20Z,2026-07-22T04:59:25Z,https://github.com/anomalyco/opencode/issues/36421
 cline/cline,12433,VS Code: Passing OpenAI API key for 5.6 Terra,closed,3,2026-07-21T10:01:55Z,2026-07-22T13:38:11Z,https://github.com/cline/cline/issues/12433
 cline/cline,10857,Cline CLI 3.0.7 leaks running processes after handling a session task,open,3,2026-05-18T19:20:57Z,2026-07-22T13:37:46Z,https://github.com/cline/cline/issues/10857
 cline/cline,10858,Cline CLI 3.0.7 --help reports wrong default directories,open,3,2026-05-18T19:24:35Z,2026-07-22T13:31:57Z,https://github.com/cline/cline/issues/10858
