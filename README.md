@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" alt="AI Needs Radar logo" width="128">
+
 # AI Needs Radar
 
 **Evidence before implementation.** A transparent radar for recurring, cross-project needs in the AI ecosystem.
