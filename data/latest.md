@@ -9,9 +9,9 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Verification and evidence of completion | 94 | 16 | 12 | 3/5 | 64.2 |
-| 2 | Permissions and action control | 80 | 16 | 12 | 3/5 | 62.8 |
-| 3 | Context, memory, and session continuity | 172 | 15 | 15 | 4/5 | 57.7 |
-| 4 | MCP and tool interoperability | 137 | 15 | 12 | 5/5 | 45.0 |
+| 2 | Permissions and action control | 82 | 16 | 12 | 3/5 | 63.0 |
+| 3 | Context, memory, and session continuity | 173 | 15 | 15 | 4/5 | 57.7 |
+| 4 | MCP and tool interoperability | 138 | 15 | 12 | 5/5 | 45.0 |
 | 5 | Cost, rate limits, and model routing | 96 | 15 | 11 | 5/5 | 43.0 |
 | 6 | Observability, audit, and replay | 79 | 15 | 12 | 5/5 | 42.9 |
 | 7 | Evals and reproducible quality | 75 | 15 | 9 | 5/5 | 37.8 |
