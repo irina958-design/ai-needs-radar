@@ -129,6 +129,13 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
+def write_history(output: Path, date: str, summaries: list[dict]) -> Path:
+    history_path = output / "history" / f"{date}-summary.csv"
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    write_csv(history_path, summaries)
+    return history_path
+
+
 def write_report(path: Path, date: str, repositories: list[dict], issues: list[dict], summaries: list[dict], matches: list[dict]) -> None:
     top_examples: dict[str, list[dict]] = defaultdict(list)
     for item in sorted(matches, key=lambda row: (row["comments"], row["updated_at"]), reverse=True):
@@ -216,6 +223,7 @@ def main() -> int:
     write_csv(args.output / "issues.csv", issues)
     write_csv(args.output / "summary.csv", summaries)
     write_csv(args.output / "matches.csv", matches)
+    write_history(args.output, date, summaries)
     write_report(args.output / "latest.md", date, repositories, issues, summaries, matches)
     (args.output / "metadata.json").write_text(
         json.dumps(

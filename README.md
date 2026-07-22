@@ -38,7 +38,7 @@ The weekly GitHub Action refreshes the public CSV snapshot and report.
 - `sources.json` — repositories in the sample;
 - `categories.json` — transparent patterns, labels, saturation scores, and known substitutes;
 - `radar.py` — standard-library collector, classifier, and report generator;
-- `data/` — current reproducible snapshot;
+- `data/` — current reproducible snapshot and compact dated summaries under `data/history/`;
 - `tests/` — deterministic classification tests.
 
 ## Method and limits
@@ -55,7 +55,7 @@ This project does not use an LLM to classify text. The first version stays cheap
 
 ## Roadmap
 
-- Track changes over time instead of only the latest snapshot.
+- Compare at least four weekly snapshots before choosing another product experiment.
 - Accept repository and category nominations through issues.
 - Add a lightweight static page only after the dataset proves useful.
 

@@ -11,7 +11,7 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 | 1 | Verification and evidence of completion | 94 | 16 | 12 | 3/5 | 64.2 |
 | 2 | Context, memory, and session continuity | 174 | 15 | 15 | 4/5 | 57.7 |
 | 3 | MCP and tool interoperability | 137 | 15 | 12 | 5/5 | 45.0 |
-| 4 | Cost, rate limits, and model routing | 98 | 15 | 11 | 5/5 | 43.2 |
+| 4 | Cost, rate limits, and model routing | 97 | 15 | 11 | 5/5 | 43.1 |
 | 5 | Observability, audit, and replay | 80 | 15 | 12 | 5/5 | 43.0 |
 | 6 | Permissions and action control | 47 | 13 | 8 | 3/5 | 42.0 |
 | 7 | Evals and reproducible quality | 76 | 15 | 10 | 5/5 | 39.5 |
@@ -48,7 +48,7 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 
 ### Observability, audit, and replay
 
-- [anthropics/claude-code #80002: [BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)](https://github.com/anthropics/claude-code/issues/80002) — 37 comments
+- [anthropics/claude-code #80002: [BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)](https://github.com/anthropics/claude-code/issues/80002) — 38 comments
 - [agno-agi/agno #7781: [feat] Add ToolAuditHook for structured tool call audit logging](https://github.com/agno-agi/agno/issues/7781) — 14 comments
 - [langfuse/langfuse #3517: feat(quick-win): Visualize time-to-first-token in trace timeline view ](https://github.com/langfuse/langfuse/issues/3517) — 14 comments
 - Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
