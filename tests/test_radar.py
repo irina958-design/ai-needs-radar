@@ -1,8 +1,9 @@
 import json
+import tempfile
 import unittest
 from pathlib import Path
 
-from radar import classify
+from radar import classify, write_history
 
 
 CATEGORIES = [
@@ -60,6 +61,15 @@ class ClassifyTests(unittest.TestCase):
         permission_urls = {match["url"] for match in matches if match["category"] == "permissions_control"}
 
         self.assertEqual(permission_urls, {"u2"})
+
+    def test_history_uses_the_snapshot_date(self):
+        rows = [{"category": "continuity", "priority_signal": 42.0}]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = write_history(Path(temp_dir), "2026-07-22", rows)
+
+            self.assertEqual(path.name, "2026-07-22-summary.csv")
+            self.assertEqual(path.read_text(encoding="utf-8"), "category,priority_signal\ncontinuity,42.0\n")
 
 
 if __name__ == "__main__":
