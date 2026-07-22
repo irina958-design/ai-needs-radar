@@ -1,4 +1,6 @@
+import json
 import unittest
+from pathlib import Path
 
 from radar import classify
 
@@ -46,6 +48,18 @@ class ClassifyTests(unittest.TestCase):
         _, matches = classify(issues, categories)
 
         self.assertEqual({match["category"] for match in matches}, {"continuity", "audit"})
+
+    def test_permission_category_excludes_generic_oauth_failures(self):
+        categories = json.loads((Path(__file__).parents[1] / "categories.json").read_text(encoding="utf-8"))
+        issues = [
+            {"repo": "a/one", "title": "OAuth refresh token failed", "comments": 0, "updated_at": "2026-01-01", "url": "u1"},
+            {"repo": "b/two", "title": "Missing approval path for sandbox permission", "comments": 0, "updated_at": "2026-01-01", "url": "u2"},
+        ]
+
+        _, matches = classify(issues, categories)
+        permission_urls = {match["url"] for match in matches if match["category"] == "permissions_control"}
+
+        self.assertEqual(permission_urls, {"u2"})
 
 
 if __name__ == "__main__":

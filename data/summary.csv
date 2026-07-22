@@ -1,8 +1,8 @@
 category,label,matched_issues,repos_with_match,repos_with_3plus,saturation_1_to_5,priority_signal,substitutes
 verification_review,Verification and evidence of completion,94,16,12,3,64.2,CI systems; DoneCheck; proof-of-done skills
-permissions_control,Permissions and action control,82,16,12,3,63.0,native sandboxes; config-sync tools; container runtimes
-context_portability,"Context, memory, and session continuity",173,15,15,4,57.7,native resume features; yigitkonur/cli-continues
-mcp_interop,MCP and tool interoperability,138,15,12,5,45.0,official MCP SDKs; FastMCP; MCP registries
-cost_routing,"Cost, rate limits, and model routing",96,15,11,5,43.0,LiteLLM; Portkey; OpenRouter; Manifest
-observability_replay,"Observability, audit, and replay",79,15,12,5,42.9,Langfuse; Phoenix; Opik; OpenTelemetry
-evals_reliability,Evals and reproducible quality,75,15,9,5,37.8,promptfoo; DeepEval; Ragas; Garak
+context_portability,"Context, memory, and session continuity",174,15,15,4,57.7,native resume features; yigitkonur/cli-continues
+mcp_interop,MCP and tool interoperability,137,15,12,5,45.0,official MCP SDKs; FastMCP; MCP registries
+cost_routing,"Cost, rate limits, and model routing",98,15,11,5,43.2,LiteLLM; Portkey; OpenRouter; Manifest
+observability_replay,"Observability, audit, and replay",80,15,12,5,43.0,Langfuse; Phoenix; Opik; OpenTelemetry
+permissions_control,Permissions and action control,47,13,8,3,42.0,native sandboxes; config-sync tools; container runtimes
+evals_reliability,Evals and reproducible quality,76,15,10,5,39.5,promptfoo; DeepEval; Ragas; Garak
