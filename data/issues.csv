@@ -1,9 +1,9 @@
 repo,number,title,state,comments,created_at,updated_at,url
+openai/codex,34762,"Mac app opens in ""ChatGPT Work"" interface instead of standard personal interface after update",open,2,2026-07-22T14:20:59Z,2026-07-22T14:31:45Z,https://github.com/openai/codex/issues/34762
 openai/codex,33611,macOS 26.707.91948: Chat mode missing; GPTs inaccessible; Projects exist on web but not in desktop app,open,3,2026-07-16T14:26:45Z,2026-07-22T14:28:10Z,https://github.com/openai/codex/issues/33611
 openai/codex,33875,High CPU Usage Triggered by Windows Defender & WMI When Launching Codex Desktop on Windows 10,open,13,2026-07-17T17:22:32Z,2026-07-22T14:27:53Z,https://github.com/openai/codex/issues/33875
 openai/codex,33597,Mac app changed from ChatGPT to Codex after update — previous chats and GPTs are missing,open,2,2026-07-16T13:28:01Z,2026-07-22T14:25:55Z,https://github.com/openai/codex/issues/33597
 openai/codex,32576,Regression: ChatGPT Record button disappeared after migration to the new ChatGPT/Codex macOS app,open,10,2026-07-12T13:05:02Z,2026-07-22T14:22:45Z,https://github.com/openai/codex/issues/32576
-openai/codex,34762,"Mac app opens in ""ChatGPT Work"" interface instead of standard personal interface after update",open,1,2026-07-22T14:20:59Z,2026-07-22T14:22:28Z,https://github.com/openai/codex/issues/34762
 openai/codex,20880,App silently creates empty `~/Documents/Codex` folder on every launch,open,18,2026-05-03T14:21:45Z,2026-07-22T14:21:38Z,https://github.com/openai/codex/issues/20880
 openai/codex,21527,codex is really too slow,open,37,2026-05-07T10:55:52Z,2026-07-22T14:17:39Z,https://github.com/openai/codex/issues/21527
 openai/codex,29694,Codex desktop app only offers Local when continuing a visible Cloud task,open,2,2026-06-23T19:26:29Z,2026-07-22T14:15:25Z,https://github.com/openai/codex/issues/29694
@@ -99,6 +99,7 @@ openai/codex,34706,Add a keyboard shortcut to toggle Expand Panel in the built-i
 openai/codex,33968,Codex VS Code sidebar intermittently hangs on the logo or renders blank on Linux/Wayland,open,10,2026-07-18T07:18:38Z,2026-07-22T09:11:40Z,https://github.com/openai/codex/issues/33968
 openai/codex,34705,GPT 5.6 Sol Very high. Excessive Process Complexity and Goal Drift When Preparing an Implementation Prompt,open,1,2026-07-22T09:08:49Z,2026-07-22T09:10:07Z,https://github.com/openai/codex/issues/34705
 openai/codex,34704,"[Windows 26.715] app-server retains repeated full stdio MCP batches, consuming 10.6 GB private memory",open,1,2026-07-22T09:04:42Z,2026-07-22T09:05:53Z,https://github.com/openai/codex/issues/34704
+anthropics/claude-code,66726,"[BUG] Claude Desktop: MCP tool calls intermittently never dispatched — silent 4-min hangs, all local servers wedge until full restart (both-side logs)",closed,5,2026-06-10T00:03:23Z,2026-07-22T14:30:30Z,https://github.com/anthropics/claude-code/issues/66726
 anthropics/claude-code,80185,Add a theme token for hyperlink/link text styling,open,0,2026-07-22T14:27:11Z,2026-07-22T14:27:11Z,https://github.com/anthropics/claude-code/issues/80185
 anthropics/claude-code,78946,loop trying to login.,open,3,2026-07-18T22:27:02Z,2026-07-22T14:25:35Z,https://github.com/anthropics/claude-code/issues/78946
 anthropics/claude-code,80002,"[BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)",open,38,2026-07-22T01:56:52Z,2026-07-22T14:24:37Z,https://github.com/anthropics/claude-code/issues/80002
@@ -200,8 +201,8 @@ anthropics/claude-code,24968,[FEATURE] Accessbility - turn duration verbs should
 anthropics/claude-code,80138,"PreToolUse hook permissionDecision ""ask"" and permissions.ask rules silently auto-resolve to allow in non-interactive sessions",open,0,2026-07-22T11:52:33Z,2026-07-22T11:52:33Z,https://github.com/anthropics/claude-code/issues/80138
 anthropics/claude-code,80137,"[FEATURE] Optional local RDP exposure check + brute-force attempt summary (Windows, opt-in)",open,0,2026-07-22T11:48:04Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/80137
 anthropics/claude-code,77453,Statusline: expose per-model rate limit usage in rate_limits (e.g. separate Opus/Fable windows),open,3,2026-07-14T11:29:41Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/77453
-anthropics/claude-code,80124,[BUG] rg tool-output rendering intermittently replaces matched substrings with short tokens (emitted bytes are clean),closed,1,2026-07-22T10:55:23Z,2026-07-22T11:47:30Z,https://github.com/anthropics/claude-code/issues/80124
-anomalyco/opencode,38293,здравствуйте у меня не работает подписка Go,open,3,2026-07-22T11:39:31Z,2026-07-22T14:29:52Z,https://github.com/anomalyco/opencode/issues/38293
+anomalyco/opencode,38293,здравствуйте у меня не работает подписка Go,open,3,2026-07-22T11:39:31Z,2026-07-22T14:31:08Z,https://github.com/anomalyco/opencode/issues/38293
+anomalyco/opencode,32932,[Bug]: opencode serve does not release port on exit — zombie self-loopback connection locks LISTENING socket (Windows),open,3,2026-06-19T02:28:18Z,2026-07-22T14:30:53Z,https://github.com/anomalyco/opencode/issues/32932
 anomalyco/opencode,38329,[Bug] OpenCode Go: kimi-k2.6 fails with HTTP 400 'cannot specify both thinking and reasoning_effort' — works via plain client,open,2,2026-07-22T14:16:09Z,2026-07-22T14:26:10Z,https://github.com/anomalyco/opencode/issues/38329
 anomalyco/opencode,38277,[FEATURE]: Add a toggle button for switching between plan and build mode,open,2,2026-07-22T09:31:44Z,2026-07-22T14:24:07Z,https://github.com/anomalyco/opencode/issues/38277
 anomalyco/opencode,29703,[FEATURE]: Allow changing project folder path without losing session history,open,7,2026-05-28T08:35:54Z,2026-07-22T14:22:43Z,https://github.com/anomalyco/opencode/issues/29703
@@ -274,7 +275,6 @@ anomalyco/opencode,38190,Request blocked by upstream provider.,closed,12,2026-07
 anomalyco/opencode,38255,Discrepancy between different opencode go usage dashboard,open,2,2026-07-22T05:22:45Z,2026-07-22T08:16:05Z,https://github.com/anomalyco/opencode/issues/38255
 anomalyco/opencode,38269,思考一直不成功，浪费了许多token,open,1,2026-07-22T08:08:23Z,2026-07-22T08:09:32Z,https://github.com/anomalyco/opencode/issues/38269
 anomalyco/opencode,4096,Feature Request: Context Control for Subagents,closed,4,2025-11-08T22:52:23Z,2026-07-22T08:08:29Z,https://github.com/anomalyco/opencode/issues/4096
-anomalyco/opencode,32932,[Bug]: opencode serve does not release port on exit — zombie self-loopback connection locks LISTENING socket (Windows),open,2,2026-06-19T02:28:18Z,2026-07-22T08:01:50Z,https://github.com/anomalyco/opencode/issues/32932
 anomalyco/opencode,37815,[Bug] Error from provider (Console Go): Upstream request failed — Kimi K3,open,5,2026-07-19T21:30:11Z,2026-07-22T07:37:56Z,https://github.com/anomalyco/opencode/issues/37815
 anomalyco/opencode,38246,"Bug Report: After a hard crash in PowerShell, OpenCode database lock persists until OpenCode runs successfully from CMD",closed,4,2026-07-22T04:28:19Z,2026-07-22T07:37:27Z,https://github.com/anomalyco/opencode/issues/38246
 anomalyco/opencode,2999,Provide means to disable Ctrl-C,open,37,2025-10-06T20:01:09Z,2026-07-22T07:29:19Z,https://github.com/anomalyco/opencode/issues/2999

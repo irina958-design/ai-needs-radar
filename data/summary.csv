@@ -2,7 +2,7 @@ category,label,matched_issues,repos_with_match,repos_with_3plus,saturation_1_to_
 verification_review,Verification and evidence of completion,114,20,14,3,59.8,CI systems; DoneCheck; proof-of-done skills
 context_portability,"Context, memory, and session continuity",212,20,19,4,57.8,native resume features; yigitkonur/cli-continues
 cost_routing,"Cost, rate limits, and model routing",119,20,14,5,43.8,LiteLLM; Portkey; OpenRouter; Manifest
-observability_replay,"Observability, audit, and replay",89,19,14,5,39.9,Langfuse; Phoenix; Opik; OpenTelemetry
-mcp_interop,MCP and tool interoperability,147,18,15,5,39.3,official MCP SDKs; FastMCP; MCP registries
+observability_replay,"Observability, audit, and replay",90,19,14,5,40.0,Langfuse; Phoenix; Opik; OpenTelemetry
+mcp_interop,MCP and tool interoperability,148,18,15,5,39.3,official MCP SDKs; FastMCP; MCP registries
 evals_reliability,Evals and reproducible quality,87,20,11,5,38.9,promptfoo; DeepEval; Ragas; Garak
 permissions_control,Permissions and action control,56,16,9,3,38.0,native sandboxes; config-sync tools; container runtimes

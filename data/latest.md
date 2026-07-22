@@ -11,8 +11,8 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 | 1 | Verification and evidence of completion | 114 | 20 | 14 | 3/5 | 59.8 |
 | 2 | Context, memory, and session continuity | 212 | 20 | 19 | 4/5 | 57.8 |
 | 3 | Cost, rate limits, and model routing | 119 | 20 | 14 | 5/5 | 43.8 |
-| 4 | Observability, audit, and replay | 89 | 19 | 14 | 5/5 | 39.9 |
-| 5 | MCP and tool interoperability | 147 | 18 | 15 | 5/5 | 39.3 |
+| 4 | Observability, audit, and replay | 90 | 19 | 14 | 5/5 | 40.0 |
+| 5 | MCP and tool interoperability | 148 | 18 | 15 | 5/5 | 39.3 |
 | 6 | Evals and reproducible quality | 87 | 20 | 11 | 5/5 | 38.9 |
 | 7 | Permissions and action control | 56 | 16 | 9 | 3/5 | 38.0 |
 
