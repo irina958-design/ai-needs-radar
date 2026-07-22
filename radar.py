@@ -124,7 +124,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
     if not rows:
         return
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -160,6 +160,25 @@ def write_report(path: Path, date: str, repositories: list[dict], issues: list[d
         if row["substitutes"]:
             lines.append(f"- Existing substitutes: {row['substitutes']}")
         lines.append("")
+
+    review_path = path.parent / "reviewed_signals.csv"
+    if review_path.exists():
+        with review_path.open(encoding="utf-8", newline="") as handle:
+            reviewed = list(csv.DictReader(handle))
+        review_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+        for row in reviewed:
+            review_counts[row["category"]][row["label"]] += 1
+        lines.extend([
+            "## Manual quality review",
+            "",
+            "| Category | Organic | Promotional | False positive |",
+            "|---|---:|---:|---:|",
+        ])
+        for category, counts in review_counts.items():
+            lines.append(
+                f"| {category} | {counts['organic']} | {counts['promotional']} | {counts['false_positive']} |"
+            )
+        lines.extend(["", "The reviewed rows and reasons are published in `data/reviewed_signals.csv`.", ""])
     lines.extend(
         [
             "## How to read this",

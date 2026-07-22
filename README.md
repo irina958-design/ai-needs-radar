@@ -47,6 +47,7 @@ The weekly GitHub Action refreshes the public CSV snapshot and report.
 - Categories overlap by design.
 - Equal 100-issue windows improve comparability but underrepresent high-volume repositories.
 - GitHub issues contain maintainer work, feature requests, bugs, and self-promotion. Top signals require qualitative review.
+- The current top-30 manual review is published in `data/reviewed_signals.csv`; it separates organic reports, promotion, and false positives.
 - Stars measure ecosystem reach, not affected users.
 - Saturation is a documented human judgment from 1 (few substitutes) to 5 (mature crowded category).
 
@@ -54,7 +55,6 @@ This project does not use an LLM to classify text. The first version stays cheap
 
 ## Roadmap
 
-- Review false positives and mark organic versus promotional issues.
 - Track changes over time instead of only the latest snapshot.
 - Accept repository and category nominations through issues.
 - Add a lightweight static page only after the dataset proves useful.

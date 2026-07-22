@@ -1,0 +1,31 @@
+category,repo,number,label,reason,reviewed_at,url
+verification_review,microsoft/autogen,7525,promotional,Promotes named external MoltBridge product,2026-07-22,https://github.com/microsoft/autogen/issues/7525
+verification_review,cline/cline,4384,organic,Specific cross-model file editing failures and user cost,2026-07-22,https://github.com/cline/cline/issues/4384
+verification_review,openai/codex,18404,false_positive,Plugin availability bug matched build terminology,2026-07-22,https://github.com/openai/codex/issues/18404
+verification_review,microsoft/autogen,7770,organic,First-person report of guardrails failing with concrete incidents,2026-07-22,https://github.com/microsoft/autogen/issues/7770
+verification_review,langchain-ai/langgraph,8209,false_positive,Maintainer type and unit-test task rather than user completion evidence,2026-07-22,https://github.com/langchain-ai/langgraph/issues/8209
+verification_review,cline/cline,11934,organic,Reproducible loss of diff review after a version update,2026-07-22,https://github.com/cline/cline/issues/11934
+verification_review,openai/codex,12920,false_positive,Identity verification is unrelated to agent work verification,2026-07-22,https://github.com/openai/codex/issues/12920
+verification_review,browser-use/browser-use,4621,promotional,Proposes the author's external compliance action,2026-07-22,https://github.com/browser-use/browser-use/issues/4621
+verification_review,openai/openai-agents-python,3697,promotional,Promotes an external review API and signed proof service,2026-07-22,https://github.com/openai/openai-agents-python/issues/3697
+verification_review,cline/cline,11879,false_positive,SDK test-coverage task rather than proof of agent completion,2026-07-22,https://github.com/cline/cline/issues/11879
+permissions_control,microsoft/autogen,7525,promotional,Promotes named external MoltBridge product,2026-07-22,https://github.com/microsoft/autogen/issues/7525
+permissions_control,langchain-ai/langgraph,7303,promotional,Promotes an external governance toolkit integration,2026-07-22,https://github.com/langchain-ai/langgraph/issues/7303
+permissions_control,openai/codex,17265,false_positive,OAuth refresh reliability is not action permission control,2026-07-22,https://github.com/openai/codex/issues/17265
+permissions_control,microsoft/autogen,7528,organic,Concrete capability attenuation problem in delegated tool calls,2026-07-22,https://github.com/microsoft/autogen/issues/7528
+permissions_control,microsoft/autogen,5891,organic,Direct request for approval hooks on agent tools,2026-07-22,https://github.com/microsoft/autogen/issues/5891
+permissions_control,openai/codex,26764,false_positive,Login token-exchange failure is authentication reliability,2026-07-22,https://github.com/openai/codex/issues/26764
+permissions_control,anthropics/claude-code,50842,organic,Missing user-facing approval path for navigation domains,2026-07-22,https://github.com/anthropics/claude-code/issues/50842
+permissions_control,ComposioHQ/composio,3271,false_positive,Credential-broker workflow friction rather than action approval,2026-07-22,https://github.com/ComposioHQ/composio/issues/3271
+permissions_control,anthropics/claude-code,51588,false_positive,Account reinstatement and login sync issue,2026-07-22,https://github.com/anthropics/claude-code/issues/51588
+permissions_control,PrefectHQ/fastmcp,4265,false_positive,OAuth token rotation reliability rather than action control,2026-07-22,https://github.com/PrefectHQ/fastmcp/issues/4265
+context_portability,langchain-ai/langgraph,7417,organic,Reproducible checkpoint replay duplicates long work and cost,2026-07-22,https://github.com/langchain-ai/langgraph/issues/7417
+context_portability,langchain-ai/langgraph,5672,organic,Cancellation reproducibly loses streamed state before checkpoint,2026-07-22,https://github.com/langchain-ai/langgraph/issues/5672
+context_portability,microsoft/autogen,7683,promotional,Requests documentation for a named external memory guard package,2026-07-22,https://github.com/microsoft/autogen/issues/7683
+context_portability,OpenHands/OpenHands,8560,organic,User workflow asks to edit prune and fork conversation context,2026-07-22,https://github.com/OpenHands/OpenHands/issues/8560
+context_portability,microsoft/autogen,7748,organic,Transparent RFC for shared memory and cross-agent handoff cost,2026-07-22,https://github.com/microsoft/autogen/issues/7748
+context_portability,langchain-ai/langgraph,7714,organic,Reproducible checkpoint storage and token overhead,2026-07-22,https://github.com/langchain-ai/langgraph/issues/7714
+context_portability,modelcontextprotocol/servers,4117,organic,Concrete persistence safety findings without an external product dependency,2026-07-22,https://github.com/modelcontextprotocol/servers/issues/4117
+context_portability,langchain-ai/langgraph,7687,organic,Self-contained request for regulated checkpoint and resume example,2026-07-22,https://github.com/langchain-ai/langgraph/issues/7687
+context_portability,microsoft/autogen,4564,organic,Collaborator-authored core memory design proposal,2026-07-22,https://github.com/microsoft/autogen/issues/4564
+context_portability,modelcontextprotocol/servers,1018,organic,Reproducible published-package memory path bug,2026-07-22,https://github.com/modelcontextprotocol/servers/issues/1018

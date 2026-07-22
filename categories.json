@@ -9,7 +9,7 @@
   {
     "id": "permissions_control",
     "label": "Permissions and action control",
-    "pattern": "\\b(?:permission|approval|allowlist|denylist|sandbox|credential|secret|oauth|authorization|auth|access control|trust)\\b",
+    "pattern": "\\b(?:permission|approval|allowlist|denylist|sandbox|authorization|access control|capability|capabilities|scope|scoped)\\b",
     "saturation": 3,
     "substitutes": ["native sandboxes", "config-sync tools", "container runtimes"]
   },

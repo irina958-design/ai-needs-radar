@@ -9,12 +9,12 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Verification and evidence of completion | 94 | 16 | 12 | 3/5 | 64.2 |
-| 2 | Permissions and action control | 82 | 16 | 12 | 3/5 | 63.0 |
-| 3 | Context, memory, and session continuity | 173 | 15 | 15 | 4/5 | 57.7 |
-| 4 | MCP and tool interoperability | 138 | 15 | 12 | 5/5 | 45.0 |
-| 5 | Cost, rate limits, and model routing | 96 | 15 | 11 | 5/5 | 43.0 |
-| 6 | Observability, audit, and replay | 79 | 15 | 12 | 5/5 | 42.9 |
-| 7 | Evals and reproducible quality | 75 | 15 | 9 | 5/5 | 37.8 |
+| 2 | Context, memory, and session continuity | 174 | 15 | 15 | 4/5 | 57.7 |
+| 3 | MCP and tool interoperability | 137 | 15 | 12 | 5/5 | 45.0 |
+| 4 | Cost, rate limits, and model routing | 98 | 15 | 11 | 5/5 | 43.2 |
+| 5 | Observability, audit, and replay | 80 | 15 | 12 | 5/5 | 43.0 |
+| 6 | Permissions and action control | 47 | 13 | 8 | 3/5 | 42.0 |
+| 7 | Evals and reproducible quality | 76 | 15 | 10 | 5/5 | 39.5 |
 
 ## Evidence examples
 
@@ -24,13 +24,6 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 - [cline/cline #4384: Fix File Editing Tool Reliability - replace_in_file, write_to_file, and Diff Failures](https://github.com/cline/cline/issues/4384) — 46 comments
 - [openai/codex #18404: [Bug] Computer Use plugin remains "unavailable" on macOS Intel (x86_64) despite MCP server showing as enabled and latest Intel build](https://github.com/openai/codex/issues/18404) — 25 comments
 - Existing substitutes: CI systems; DoneCheck; proof-of-done skills
-
-### Permissions and action control
-
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 63 comments
-- [langchain-ai/langgraph #7303: Collaboration: Trust-gated checkpoints and governance nodes for LangGraph](https://github.com/langchain-ai/langgraph/issues/7303) — 34 comments
-- [openai/codex #17265: Codex does not auto-refresh routed MCP OAuth tokens even when a refresh token is stored](https://github.com/openai/codex/issues/17265) — 24 comments
-- Existing substitutes: native sandboxes; config-sync tools; container runtimes
 
 ### Context, memory, and session continuity
 
@@ -52,6 +45,23 @@ Snapshot: **1,600 recent issues** from **16 active AI repositories**.
 - [anomalyco/opencode #38218: bug(opencode-go): All subscription models return "Request blocked by upstream provider"](https://github.com/anomalyco/opencode/issues/38218) — 19 comments
 - [anomalyco/opencode #38195: 401 AuthError: Request blocked by upstream provider](https://github.com/anomalyco/opencode/issues/38195) — 13 comments
 - Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
+
+### Observability, audit, and replay
+
+- [anthropics/claude-code #80002: [BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)](https://github.com/anthropics/claude-code/issues/80002) — 37 comments
+- [agno-agi/agno #7781: [feat] Add ToolAuditHook for structured tool call audit logging](https://github.com/agno-agi/agno/issues/7781) — 14 comments
+- [langfuse/langfuse #3517: feat(quick-win): Visualize time-to-first-token in trace timeline view ](https://github.com/langfuse/langfuse/issues/3517) — 14 comments
+- Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
+
+## Manual quality review
+
+| Category | Organic | Promotional | False positive |
+|---|---:|---:|---:|
+| verification_review | 3 | 3 | 4 |
+| permissions_control | 3 | 2 | 5 |
+| context_portability | 9 | 1 | 0 |
+
+The reviewed rows and reasons are published in `data/reviewed_signals.csv`.
 
 ## How to read this
 
