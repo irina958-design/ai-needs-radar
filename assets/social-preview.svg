@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">AI Needs Radar social preview</title>
+  <desc id="description">AI Needs Radar branding with the message Evidence before implementation.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#0b1220"/>
+  <rect width="1280" height="640" fill="url(#grid)" opacity=".72"/>
+  <circle cx="316" cy="320" r="224" fill="#101c31" stroke="#1e293b" stroke-width="2"/>
+  <g transform="translate(96 100) scale(.86)">
+    <g fill="none" stroke="#2563eb" stroke-linecap="round">
+      <circle cx="256" cy="256" r="164" stroke-width="24"/>
+      <circle cx="256" cy="256" r="102" stroke-width="20" opacity=".72"/>
+    </g>
+    <path d="M256 256 225 92a167 167 0 0 1 62 0Z" fill="#f5b942" opacity=".34"/>
+    <path d="M256 256V76" fill="none" stroke="#f5b942" stroke-linecap="round" stroke-width="14"/>
+    <circle cx="256" cy="76" r="22" fill="#f5b942"/>
+    <g fill="#2563eb">
+      <circle cx="256" cy="76" r="22" transform="rotate(51.4286 256 256)"/>
+      <circle cx="256" cy="76" r="22" transform="rotate(102.8571 256 256)"/>
+      <circle cx="256" cy="76" r="22" transform="rotate(154.2857 256 256)"/>
+      <circle cx="256" cy="76" r="22" transform="rotate(205.7143 256 256)"/>
+      <circle cx="256" cy="76" r="22" transform="rotate(257.1429 256 256)"/>
+      <circle cx="256" cy="76" r="22" transform="rotate(308.5714 256 256)"/>
+      <circle cx="256" cy="256" r="22"/>
+    </g>
+  </g>
+  <text x="590" y="256" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">AI Needs Radar</text>
+  <text x="594" y="322" fill="#f5b942" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">Evidence before implementation.</text>
+  <text x="594" y="382" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Find recurring AI needs before building another product.</text>
+  <g transform="translate(594 430)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="600">
+    <rect width="194" height="46" rx="23" fill="#172554" stroke="#2563eb"/>
+    <text x="97" y="29" fill="#bfdbfe" text-anchor="middle">transparent rules</text>
+    <rect x="210" width="184" height="46" rx="23" fill="#172554" stroke="#2563eb"/>
+    <text x="302" y="29" fill="#bfdbfe" text-anchor="middle">weekly evidence</text>
+    <rect x="410" width="214" height="46" rx="23" fill="#422006" stroke="#f5b942"/>
+    <text x="517" y="29" fill="#fde68a" text-anchor="middle">explicit stop rules</text>
+  </g>
+</svg>
