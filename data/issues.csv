@@ -1,6 +1,6 @@
 repo,number,title,state,comments,created_at,updated_at,url
+openai/codex,33875,High CPU Usage Triggered by Windows Defender & WMI When Launching Codex Desktop on Windows 10,open,13,2026-07-17T17:22:32Z,2026-07-22T14:27:53Z,https://github.com/openai/codex/issues/33875
 openai/codex,33597,Mac app changed from ChatGPT to Codex after update — previous chats and GPTs are missing,open,2,2026-07-16T13:28:01Z,2026-07-22T14:25:55Z,https://github.com/openai/codex/issues/33597
-openai/codex,33875,High CPU Usage Triggered by Windows Defender & WMI When Launching Codex Desktop on Windows 10,open,13,2026-07-17T17:22:32Z,2026-07-22T14:24:57Z,https://github.com/openai/codex/issues/33875
 openai/codex,32576,Regression: ChatGPT Record button disappeared after migration to the new ChatGPT/Codex macOS app,open,10,2026-07-12T13:05:02Z,2026-07-22T14:22:45Z,https://github.com/openai/codex/issues/32576
 openai/codex,34762,"Mac app opens in ""ChatGPT Work"" interface instead of standard personal interface after update",open,1,2026-07-22T14:20:59Z,2026-07-22T14:22:28Z,https://github.com/openai/codex/issues/34762
 openai/codex,20880,App silently creates empty `~/Documents/Codex` folder on every launch,open,18,2026-05-03T14:21:45Z,2026-07-22T14:21:38Z,https://github.com/openai/codex/issues/20880
@@ -99,6 +99,7 @@ openai/codex,33968,Codex VS Code sidebar intermittently hangs on the logo or ren
 openai/codex,34705,GPT 5.6 Sol Very high. Excessive Process Complexity and Goal Drift When Preparing an Implementation Prompt,open,1,2026-07-22T09:08:49Z,2026-07-22T09:10:07Z,https://github.com/openai/codex/issues/34705
 openai/codex,34704,"[Windows 26.715] app-server retains repeated full stdio MCP batches, consuming 10.6 GB private memory",open,1,2026-07-22T09:04:42Z,2026-07-22T09:05:53Z,https://github.com/openai/codex/issues/34704
 openai/codex,25179,Codex app accumulates stale subagents in cache/UI and they cannot be closed reliably,open,6,2026-05-30T00:18:05Z,2026-07-22T09:05:37Z,https://github.com/openai/codex/issues/25179
+anthropics/claude-code,80185,Add a theme token for hyperlink/link text styling,open,0,2026-07-22T14:27:11Z,2026-07-22T14:27:11Z,https://github.com/anthropics/claude-code/issues/80185
 anthropics/claude-code,78946,loop trying to login.,open,3,2026-07-18T22:27:02Z,2026-07-22T14:25:35Z,https://github.com/anthropics/claude-code/issues/78946
 anthropics/claude-code,80002,"[BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)",open,38,2026-07-22T01:56:52Z,2026-07-22T14:24:37Z,https://github.com/anthropics/claude-code/issues/80002
 anthropics/claude-code,80184,"[BUG] Linux/VTE (Ptyxis, GNOME Terminal): copy-on-select reports ""N characters copied"" but never writes the clipboard — OSC 52 ignored, wl-copy fallback unawaited",open,0,2026-07-22T14:19:04Z,2026-07-22T14:19:04Z,https://github.com/anthropics/claude-code/issues/80184
@@ -200,7 +201,6 @@ anthropics/claude-code,80138,"PreToolUse hook permissionDecision ""ask"" and per
 anthropics/claude-code,80137,"[FEATURE] Optional local RDP exposure check + brute-force attempt summary (Windows, opt-in)",open,0,2026-07-22T11:48:04Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/80137
 anthropics/claude-code,77453,Statusline: expose per-model rate limit usage in rate_limits (e.g. separate Opus/Fable windows),open,3,2026-07-14T11:29:41Z,2026-07-22T11:48:04Z,https://github.com/anthropics/claude-code/issues/77453
 anthropics/claude-code,80124,[BUG] rg tool-output rendering intermittently replaces matched substrings with short tokens (emitted bytes are clean),closed,1,2026-07-22T10:55:23Z,2026-07-22T11:47:30Z,https://github.com/anthropics/claude-code/issues/80124
-anthropics/claude-code,80136,Assistant text before tool calls intermittently not rendered (terminal + remote-control view) — started after mid-session Opus → Fable model switch,open,0,2026-07-22T11:46:02Z,2026-07-22T11:46:02Z,https://github.com/anthropics/claude-code/issues/80136
 anomalyco/opencode,38329,[Bug] OpenCode Go: kimi-k2.6 fails with HTTP 400 'cannot specify both thinking and reasoning_effort' — works via plain client,open,2,2026-07-22T14:16:09Z,2026-07-22T14:26:10Z,https://github.com/anomalyco/opencode/issues/38329
 anomalyco/opencode,38277,[FEATURE]: Add a toggle button for switching between plan and build mode,open,2,2026-07-22T09:31:44Z,2026-07-22T14:24:07Z,https://github.com/anomalyco/opencode/issues/38277
 anomalyco/opencode,29703,[FEATURE]: Allow changing project folder path without losing session history,open,7,2026-05-28T08:35:54Z,2026-07-22T14:22:43Z,https://github.com/anomalyco/opencode/issues/29703
@@ -701,6 +701,7 @@ openai/openai-agents-python,2658,Feature request: pass a specific rejection reas
 openai/openai-agents-python,3528,Your project is ranked #12 on HVTracker — embed a trust badge?,closed,1,2026-05-29T16:07:54Z,2026-05-29T22:33:49Z,https://github.com/openai/openai-agents-python/issues/3528
 openai/openai-agents-python,1789,Duplicate item found with id fc_xxxx when using conversation_id with function calling,closed,11,2025-09-23T09:39:57Z,2026-05-28T19:25:01Z,https://github.com/openai/openai-agents-python/issues/1789
 openai/openai-agents-python,887,Support for short‑term and long‑term memory in Agents SDK,closed,7,2025-06-17T15:57:39Z,2026-05-28T15:06:27Z,https://github.com/openai/openai-agents-python/issues/887
+microsoft/autogen,7492,Payment primitive for multi-agent systems - how are teams handling this?,open,56,2026-03-30T19:45:38Z,2026-07-22T14:27:51Z,https://github.com/microsoft/autogen/issues/7492
 microsoft/autogen,7353,Feature: Cryptographic action receipts for enterprise agent governance (AAR),open,317,2026-03-06T18:26:48Z,2026-07-22T13:43:45Z,https://github.com/microsoft/autogen/issues/7353
 microsoft/autogen,7924,Proposal: Security audit for MCP servers used by AutoGen agents,open,4,2026-07-06T16:57:58Z,2026-07-22T04:38:26Z,https://github.com/microsoft/autogen/issues/7924
 microsoft/autogen,7321,Feature proposal: Backpressure contract declarations for multi-agent coordination,open,11,2026-02-28T13:17:41Z,2026-07-21T19:48:17Z,https://github.com/microsoft/autogen/issues/7321
@@ -735,7 +736,6 @@ microsoft/autogen,7953,Proposal: MCP Runtime Validation for Production Reliabili
 microsoft/autogen,7949,Abmc,open,0,2026-07-12T21:01:42Z,2026-07-12T21:01:42Z,https://github.com/microsoft/autogen/issues/7949
 microsoft/autogen,7173,the latest versions of autogenstudio and autogen-agentchat are not compatible.,open,3,2026-01-15T11:50:09Z,2026-07-12T18:42:30Z,https://github.com/microsoft/autogen/issues/7173
 microsoft/autogen,6385,Error in LangChainToolAdapter GoogleDriveSearchTool: Unable to generate pydantic-core schema,open,2,2025-04-24T09:57:00Z,2026-07-12T18:42:28Z,https://github.com/microsoft/autogen/issues/6385
-microsoft/autogen,7492,Payment primitive for multi-agent systems - how are teams handling this?,open,55,2026-03-30T19:45:38Z,2026-07-12T06:23:24Z,https://github.com/microsoft/autogen/issues/7492
 microsoft/autogen,7928,"Community x402 data provider: AgentServices - 50+ APIs for AutoGen agents (crypto, market intel, search, inference)",open,1,2026-07-08T05:12:33Z,2026-07-10T13:13:41Z,https://github.com/microsoft/autogen/issues/7928
 microsoft/autogen,7833,Anthropic model-info lookup does not resolve AWS Bedrock / cross-region inference model IDs,open,1,2026-06-13T14:32:49Z,2026-07-09T19:45:13Z,https://github.com/microsoft/autogen/issues/7833
 microsoft/autogen,7372,Cryptographic governance layer for AutoGen distributed agent runtime,open,51,2026-03-11T22:08:34Z,2026-07-09T07:27:22Z,https://github.com/microsoft/autogen/issues/7372

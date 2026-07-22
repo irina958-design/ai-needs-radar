@@ -1,6 +1,6 @@
 category,label,matched_issues,repos_with_match,repos_with_3plus,saturation_1_to_5,priority_signal,substitutes
 verification_review,Verification and evidence of completion,94,16,12,3,64.2,CI systems; DoneCheck; proof-of-done skills
-context_portability,"Context, memory, and session continuity",174,15,15,4,57.7,native resume features; yigitkonur/cli-continues
+context_portability,"Context, memory, and session continuity",173,15,15,4,57.7,native resume features; yigitkonur/cli-continues
 mcp_interop,MCP and tool interoperability,137,15,12,5,45.0,official MCP SDKs; FastMCP; MCP registries
 cost_routing,"Cost, rate limits, and model routing",97,15,11,5,43.1,LiteLLM; Portkey; OpenRouter; Manifest
 observability_replay,"Observability, audit, and replay",80,15,12,5,43.0,Langfuse; Phoenix; Opik; OpenTelemetry
