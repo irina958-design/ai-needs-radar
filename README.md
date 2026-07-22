@@ -39,6 +39,7 @@ The weekly GitHub Action refreshes the public CSV snapshot and report.
 - `categories.json` — transparent patterns, labels, saturation scores, and known substitutes;
 - `radar.py` — standard-library collector, classifier, and report generator;
 - `data/` — current reproducible snapshot and compact dated summaries under `data/history/`;
+- `data/source_coverage.md` — sample composition, gaps, and source-selection rationale;
 - `tests/` — deterministic classification tests.
 
 ## Method and limits

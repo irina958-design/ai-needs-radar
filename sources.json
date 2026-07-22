@@ -14,5 +14,10 @@
   "promptfoo/promptfoo",
   "modelcontextprotocol/servers",
   "PrefectHQ/fastmcp",
-  "ComposioHQ/composio"
+  "ComposioHQ/composio",
+  "ollama/ollama",
+  "open-webui/open-webui",
+  "langgenius/dify",
+  "Mintplex-Labs/anything-llm",
+  "Comfy-Org/ComfyUI"
 ]
