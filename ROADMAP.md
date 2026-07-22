@@ -2,9 +2,9 @@
 
 AI Needs Radar follows evidence gates, not a feature calendar. The purpose of this roadmap is to decide **whether anything new should be built**, then keep the first experiment narrow enough to stop cheaply.
 
-**Current phase:** evidence accumulation  
-**Decision milestone:** 10 August 2026  
-**Tracking issue:** [#9 — Four-week decision gate](https://github.com/irina958-design/ai-needs-radar/issues/9)
+- **Current phase:** evidence accumulation
+- **Decision milestone:** 10 August 2026
+- **Tracking issue:** [#9 — Four-week decision gate](https://github.com/irina958-design/ai-needs-radar/issues/9)
 
 ## Timeline
 
