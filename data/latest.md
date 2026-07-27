@@ -1,4 +1,4 @@
-# AI needs radar — 2026-07-22
+# AI needs radar — 2026-07-27
 
 Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
@@ -8,50 +8,50 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
-| 1 | Verification and evidence of completion | 114 | 20 | 14 | 3/5 | 59.8 |
-| 2 | Context, memory, and session continuity | 212 | 20 | 19 | 4/5 | 57.8 |
-| 3 | Cost, rate limits, and model routing | 118 | 20 | 14 | 5/5 | 43.8 |
-| 4 | Observability, audit, and replay | 90 | 19 | 14 | 5/5 | 40.0 |
-| 5 | MCP and tool interoperability | 148 | 18 | 15 | 5/5 | 39.3 |
-| 6 | Evals and reproducible quality | 87 | 20 | 11 | 5/5 | 38.9 |
-| 7 | Permissions and action control | 56 | 16 | 9 | 3/5 | 38.0 |
+| 1 | Context, memory, and session continuity | 209 | 21 | 20 | 4/5 | 61.8 |
+| 2 | Verification and evidence of completion | 93 | 19 | 13 | 3/5 | 55.1 |
+| 3 | Cost, rate limits, and model routing | 128 | 21 | 15 | 5/5 | 47.9 |
+| 4 | MCP and tool interoperability | 137 | 18 | 15 | 5/5 | 39.3 |
+| 5 | Permissions and action control | 62 | 15 | 10 | 3/5 | 37.0 |
+| 6 | Observability, audit, and replay | 85 | 18 | 14 | 5/5 | 36.6 |
+| 7 | Evals and reproducible quality | 68 | 20 | 9 | 5/5 | 34.7 |
 
 ## Evidence examples
 
-### Verification and evidence of completion
-
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 63 comments
-- [cline/cline #4384: Fix File Editing Tool Reliability - replace_in_file, write_to_file, and Diff Failures](https://github.com/cline/cline/issues/4384) — 46 comments
-- [openai/codex #18404: [Bug] Computer Use plugin remains "unavailable" on macOS Intel (x86_64) despite MCP server showing as enabled and latest Intel build](https://github.com/openai/codex/issues/18404) — 25 comments
-- Existing substitutes: CI systems; DoneCheck; proof-of-done skills
-
 ### Context, memory, and session continuity
 
-- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 40 comments
+- [langchain-ai/langgraph #3716: langgraph-checkpoint-postgres (psycopg.OperationalError: sending query and params failed: SSL error: bad length) encountered across multiple version](https://github.com/langchain-ai/langgraph/issues/3716) — 52 comments
+- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 44 comments
 - [open-webui/open-webui #26708: feat: Expose Chat-Attached Knowledge to Builtin Tools When File Context Is Off](https://github.com/open-webui/open-webui/issues/26708) — 35 comments
-- [langchain-ai/langgraph #5672: Run Cancellation Causes Loss of Streamed State Not Yet Persisted as a Checkpoint](https://github.com/langchain-ai/langgraph/issues/5672) — 27 comments
 - Existing substitutes: native resume features; yigitkonur/cli-continues
+
+### Verification and evidence of completion
+
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 79 comments
+- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 65 comments
+- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 25 comments
+- Existing substitutes: CI systems; DoneCheck; proof-of-done skills
 
 ### Cost, rate limits, and model routing
 
-- [anomalyco/opencode #38257: [Bug] OpenCode Go: return 401 Request blocked by upstream provider — chat/completions blocked while /v1/models works](https://github.com/anomalyco/opencode/issues/38257) — 24 comments
-- [anomalyco/opencode #38218: bug(opencode-go): All subscription models return "Request blocked by upstream provider"](https://github.com/anomalyco/opencode/issues/38218) — 19 comments
-- [anomalyco/opencode #38195: 401 AuthError: Request blocked by upstream provider](https://github.com/anomalyco/opencode/issues/38195) — 13 comments
+- [anthropics/claude-code #29579: [BUG] API Error: Rate limit reached despite Claude Max subscription and only 16% usage](https://github.com/anthropics/claude-code/issues/29579) — 153 comments
+- [ollama/ollama #16714: Ollama Cloud - Prompt Cache Support](https://github.com/ollama/ollama/issues/16714) — 33 comments
+- [anomalyco/opencode #38195: 401 AuthError: Request blocked by upstream provider](https://github.com/anomalyco/opencode/issues/38195) — 22 comments
 - Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
-
-### Observability, audit, and replay
-
-- [anthropics/claude-code #80002: [BUG] macOS: Claude Desktop never dispatches tools/call to the first-party Filesystem extension (tools/list succeeds, no tools/call in any log)](https://github.com/anthropics/claude-code/issues/80002) — 38 comments
-- [agno-agi/agno #7781: [feat] Add ToolAuditHook for structured tool call audit logging](https://github.com/agno-agi/agno/issues/7781) — 14 comments
-- [langfuse/langfuse #3517: feat(quick-win): Visualize time-to-first-token in trace timeline view ](https://github.com/langfuse/langfuse/issues/3517) — 14 comments
-- Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
 
 ### MCP and tool interoperability
 
-- [langfuse/langfuse #12738: MCP Server: Support SSO/OIDC authentication as alternative to static API keys](https://github.com/langfuse/langfuse/issues/12738) — 40 comments
-- [openai/codex #18404: [Bug] Computer Use plugin remains "unavailable" on macOS Intel (x86_64) despite MCP server showing as enabled and latest Intel build](https://github.com/openai/codex/issues/18404) — 25 comments
-- [openai/codex #17265: Codex does not auto-refresh routed MCP OAuth tokens even when a refresh token is stored](https://github.com/openai/codex/issues/17265) — 24 comments
+- [microsoft/autogen #7266: Enforce fail-closed defaults for untrusted MCP server integrations](https://github.com/microsoft/autogen/issues/7266) — 16 comments
+- [modelcontextprotocol/servers #2729: [Bug] Claude Desktop: "Could not attach to MCP server {NAME OF MCP SERVER}"](https://github.com/modelcontextprotocol/servers/issues/2729) — 15 comments
+- [modelcontextprotocol/servers #692: Memory MCP ignores custom storage path setting](https://github.com/modelcontextprotocol/servers/issues/692) — 13 comments
 - Existing substitutes: official MCP SDKs; FastMCP; MCP registries
+
+### Permissions and action control
+
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 79 comments
+- [OpenHands/OpenHands #8845: [Feature]: Support separate sandbox runtime image per repository](https://github.com/OpenHands/OpenHands/issues/8845) — 21 comments
+- [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 20 comments
+- Existing substitutes: native sandboxes; config-sync tools; container runtimes
 
 ## Manual quality review
 
