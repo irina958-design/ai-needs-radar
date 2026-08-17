@@ -1,4 +1,4 @@
-# AI needs radar — 2026-08-10
+# AI needs radar — 2026-08-17
 
 Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
@@ -8,50 +8,50 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
-| 1 | Context, memory, and session continuity | 191 | 21 | 18 | 4/5 | 59.4 |
-| 2 | Verification and evidence of completion | 81 | 17 | 14 | 3/5 | 49.3 |
-| 3 | MCP and tool interoperability | 130 | 20 | 16 | 5/5 | 46.2 |
-| 4 | Permissions and action control | 64 | 18 | 9 | 3/5 | 44.5 |
-| 5 | Cost, rate limits, and model routing | 131 | 19 | 16 | 5/5 | 43.3 |
-| 6 | Evals and reproducible quality | 63 | 18 | 8 | 5/5 | 27.3 |
-| 7 | Observability, audit, and replay | 65 | 17 | 9 | 5/5 | 25.8 |
+| 1 | Context, memory, and session continuity | 233 | 21 | 20 | 4/5 | 61.8 |
+| 2 | Verification and evidence of completion | 94 | 19 | 13 | 3/5 | 55.2 |
+| 3 | Permissions and action control | 60 | 17 | 9 | 3/5 | 41.3 |
+| 4 | Cost, rate limits, and model routing | 133 | 18 | 14 | 5/5 | 38.1 |
+| 5 | Observability, audit, and replay | 73 | 20 | 10 | 5/5 | 36.3 |
+| 6 | MCP and tool interoperability | 111 | 17 | 14 | 5/5 | 35.2 |
+| 7 | Evals and reproducible quality | 67 | 18 | 8 | 5/5 | 27.7 |
 
 ## Evidence examples
 
 ### Context, memory, and session continuity
 
-- [anomalyco/opencode #20695: Memory Megathread](https://github.com/anomalyco/opencode/issues/20695) — 124 comments
-- [ollama/ollama #7865: Model Context Protocol (MCP) support](https://github.com/ollama/ollama/issues/7865) — 60 comments
-- [langchain-ai/langgraph #3716: langgraph-checkpoint-postgres (psycopg.OperationalError: sending query and params failed: SSL error: bad length) encountered across multiple version](https://github.com/langchain-ai/langgraph/issues/3716) — 52 comments
+- [langchain-ai/langgraph #3716: langgraph-checkpoint-postgres (psycopg.OperationalError: sending query and params failed: SSL error: bad length) encountered across multiple version](https://github.com/langchain-ai/langgraph/issues/3716) — 53 comments
+- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 42 comments
+- [ollama/ollama #14116: Tiered context length can exhaust VRAM](https://github.com/ollama/ollama/issues/14116) — 39 comments
 - Existing substitutes: native resume features; yigitkonur/cli-continues
 
 ### Verification and evidence of completion
 
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 107 comments
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 57 comments
-- [anthropics/claude-code #8660: [BUG] Edit preview/diff not showing in VSCode extension UI when confirming changes](https://github.com/anthropics/claude-code/issues/8660) — 53 comments
+- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 58 comments
+- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 34 comments
+- [anthropics/claude-code #30407: [workflow issue] all issues get auto-closed without review??](https://github.com/anthropics/claude-code/issues/30407) — 22 comments
 - Existing substitutes: CI systems; DoneCheck; proof-of-done skills
-
-### MCP and tool interoperability
-
-- [modelcontextprotocol/servers #64: MCP Servers Don't Work with NVM](https://github.com/modelcontextprotocol/servers/issues/64) — 90 comments
-- [ollama/ollama #7865: Model Context Protocol (MCP) support](https://github.com/ollama/ollama/issues/7865) — 60 comments
-- [open-webui/open-webui #19313: feat: User specific MCP headers](https://github.com/open-webui/open-webui/issues/19313) — 43 comments
-- Existing substitutes: official MCP SDKs; FastMCP; MCP registries
 
 ### Permissions and action control
 
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 107 comments
+- [openai/codex #25319: Scope Codex VS Code chats to the current workspace/project](https://github.com/openai/codex/issues/25319) — 30 comments
 - [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 22 comments
 - [microsoft/autogen #5891: Support Approval Func in BaseTool in AgentChat](https://github.com/microsoft/autogen/issues/5891) — 16 comments
 - Existing substitutes: native sandboxes; config-sync tools; container runtimes
 
 ### Cost, rate limits, and model routing
 
-- [cline/cline #7262: Cline returning over and over again: Invalid API Response: The provider returned an empty or unparsable response](https://github.com/cline/cline/issues/7262) — 39 comments
-- [ollama/ollama #16714: Ollama Cloud - Prompt Cache Support](https://github.com/ollama/ollama/issues/16714) — 36 comments
-- [open-webui/open-webui #25078: issue: Azure OpenAI models return 404 "Resource not found" after editing connection settings (model_ids update replaces `azure: true` with `provider: "azure"`](https://github.com/open-webui/open-webui/issues/25078) — 13 comments
+- [cline/cline #10750: Error: Unknown or disabled provider "openai".](https://github.com/cline/cline/issues/10750) — 18 comments
+- [modelcontextprotocol/servers #4162: filesystem: recursive search can hang on macOS CloudStorage / lazy provider paths](https://github.com/modelcontextprotocol/servers/issues/4162) — 17 comments
+- [openai/codex #35463: Codex subagents drain full week quota overnight - usage counting broken](https://github.com/openai/codex/issues/35463) — 12 comments
 - Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
+
+### Observability, audit, and replay
+
+- [openai/codex #24510: Codex Desktop high CPU from unbounded active thread metadata and local history/list processing](https://github.com/openai/codex/issues/24510) — 29 comments
+- [openai/codex #21211: Thread navigation/loading slows from unbounded metadata and eager large-history hydration](https://github.com/openai/codex/issues/21211) — 25 comments
+- [openai/codex #28855: Codex Desktop 26.611.8604.0 causes intermittent system input lag on Windows despite clean logs/plugins disabled](https://github.com/openai/codex/issues/28855) — 20 comments
+- Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
 
 ## Manual quality review
 
