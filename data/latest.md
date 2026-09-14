@@ -1,4 +1,4 @@
-# AI needs radar — 2026-08-17
+# AI needs radar — 2026-09-14
 
 Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
@@ -8,49 +8,49 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
-| 1 | Context, memory, and session continuity | 233 | 21 | 20 | 4/5 | 61.8 |
-| 2 | Verification and evidence of completion | 94 | 19 | 13 | 3/5 | 55.2 |
-| 3 | Permissions and action control | 60 | 17 | 9 | 3/5 | 41.3 |
-| 4 | Cost, rate limits, and model routing | 133 | 18 | 14 | 5/5 | 38.1 |
-| 5 | Observability, audit, and replay | 73 | 20 | 10 | 5/5 | 36.3 |
-| 6 | MCP and tool interoperability | 111 | 17 | 14 | 5/5 | 35.2 |
-| 7 | Evals and reproducible quality | 67 | 18 | 8 | 5/5 | 27.7 |
+| 1 | Context, memory, and session continuity | 237 | 21 | 20 | 4/5 | 61.8 |
+| 2 | Verification and evidence of completion | 85 | 18 | 13 | 3/5 | 51.4 |
+| 3 | Permissions and action control | 81 | 19 | 10 | 3/5 | 50.3 |
+| 4 | Cost, rate limits, and model routing | 144 | 20 | 17 | 5/5 | 47.4 |
+| 5 | Observability, audit, and replay | 88 | 20 | 14 | 5/5 | 42.6 |
+| 6 | MCP and tool interoperability | 119 | 18 | 15 | 5/5 | 39.3 |
+| 7 | Evals and reproducible quality | 65 | 21 | 10 | 5/5 | 38.4 |
 
 ## Evidence examples
 
 ### Context, memory, and session continuity
 
-- [langchain-ai/langgraph #3716: langgraph-checkpoint-postgres (psycopg.OperationalError: sending query and params failed: SSL error: bad length) encountered across multiple version](https://github.com/langchain-ai/langgraph/issues/3716) — 53 comments
-- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 42 comments
-- [ollama/ollama #14116: Tiered context length can exhaust VRAM](https://github.com/ollama/ollama/issues/14116) — 39 comments
+- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 58 comments
+- [microsoft/autogen #7748: RFC: Cross-agent shared memory store with on-demand capsule recall (agent/group/global scopes)](https://github.com/microsoft/autogen/issues/7748) — 41 comments
+- [langgenius/dify #40372: rewrite property to accept session: Session as parameter](https://github.com/langgenius/dify/issues/40372) — 40 comments
 - Existing substitutes: native resume features; yigitkonur/cli-continues
 
 ### Verification and evidence of completion
 
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 58 comments
-- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 34 comments
-- [anthropics/claude-code #30407: [workflow issue] all issues get auto-closed without review??](https://github.com/anthropics/claude-code/issues/30407) — 22 comments
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 177 comments
+- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 56 comments
+- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 30 comments
 - Existing substitutes: CI systems; DoneCheck; proof-of-done skills
 
 ### Permissions and action control
 
-- [openai/codex #25319: Scope Codex VS Code chats to the current workspace/project](https://github.com/openai/codex/issues/25319) — 30 comments
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 177 comments
 - [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 22 comments
-- [microsoft/autogen #5891: Support Approval Func in BaseTool in AgentChat](https://github.com/microsoft/autogen/issues/5891) — 16 comments
+- [microsoft/autogen #5891: Support Approval Func in BaseTool in AgentChat](https://github.com/microsoft/autogen/issues/5891) — 19 comments
 - Existing substitutes: native sandboxes; config-sync tools; container runtimes
 
 ### Cost, rate limits, and model routing
 
-- [cline/cline #10750: Error: Unknown or disabled provider "openai".](https://github.com/cline/cline/issues/10750) — 18 comments
-- [modelcontextprotocol/servers #4162: filesystem: recursive search can hang on macOS CloudStorage / lazy provider paths](https://github.com/modelcontextprotocol/servers/issues/4162) — 17 comments
-- [openai/codex #35463: Codex subagents drain full week quota overnight - usage counting broken](https://github.com/openai/codex/issues/35463) — 12 comments
+- [anomalyco/opencode #37231: Error from provider (Console Go): Upstream request failed](https://github.com/anomalyco/opencode/issues/37231) — 18 comments
+- [modelcontextprotocol/servers #4162: filesystem: recursive search can hang on macOS CloudStorage / lazy provider paths](https://github.com/modelcontextprotocol/servers/issues/4162) — 15 comments
+- [ollama/ollama #8967: when using deepseek-r1:1.5b cannot get token usage](https://github.com/ollama/ollama/issues/8967) — 8 comments
 - Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
 
 ### Observability, audit, and replay
 
-- [openai/codex #24510: Codex Desktop high CPU from unbounded active thread metadata and local history/list processing](https://github.com/openai/codex/issues/24510) — 29 comments
-- [openai/codex #21211: Thread navigation/loading slows from unbounded metadata and eager large-history hydration](https://github.com/openai/codex/issues/21211) — 25 comments
-- [openai/codex #28855: Codex Desktop 26.611.8604.0 causes intermittent system input lag on Windows despite clean logs/plugins disabled](https://github.com/openai/codex/issues/28855) — 20 comments
+- [langchain-ai/langgraph #8039: durability="sync": put_writes/put persistence order is unenforced, so post-crash recovery (replay vs re-execute) is host-dependent](https://github.com/langchain-ai/langgraph/issues/8039) — 39 comments
+- [openai/codex #28058: Regression: encrypted MultiAgentV2 messages remove readable task audit trail](https://github.com/openai/codex/issues/28058) — 36 comments
+- [modelcontextprotocol/servers #3537: Security Audit: Unconstrained string parameters across all official servers](https://github.com/modelcontextprotocol/servers/issues/3537) — 16 comments
 - Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
 
 ## Manual quality review
