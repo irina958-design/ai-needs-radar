@@ -1,4 +1,4 @@
-# AI needs radar — 2026-09-14
+# AI needs radar — 2026-09-21
 
 Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
@@ -8,50 +8,50 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
-| 1 | Context, memory, and session continuity | 237 | 21 | 20 | 4/5 | 61.8 |
-| 2 | Verification and evidence of completion | 85 | 18 | 13 | 3/5 | 51.4 |
-| 3 | Permissions and action control | 81 | 19 | 10 | 3/5 | 50.3 |
-| 4 | Cost, rate limits, and model routing | 144 | 20 | 17 | 5/5 | 47.4 |
-| 5 | Observability, audit, and replay | 88 | 20 | 14 | 5/5 | 42.6 |
-| 6 | MCP and tool interoperability | 119 | 18 | 15 | 5/5 | 39.3 |
-| 7 | Evals and reproducible quality | 65 | 21 | 10 | 5/5 | 38.4 |
+| 1 | Context, memory, and session continuity | 248 | 21 | 21 | 4/5 | 63.0 |
+| 2 | Verification and evidence of completion | 94 | 20 | 12 | 3/5 | 56.8 |
+| 3 | Cost, rate limits, and model routing | 153 | 20 | 16 | 5/5 | 46.2 |
+| 4 | Permissions and action control | 74 | 17 | 11 | 3/5 | 45.1 |
+| 5 | MCP and tool interoperability | 103 | 18 | 15 | 5/5 | 39.3 |
+| 6 | Observability, audit, and replay | 72 | 18 | 12 | 5/5 | 32.9 |
+| 7 | Evals and reproducible quality | 61 | 17 | 10 | 5/5 | 26.6 |
 
 ## Evidence examples
 
 ### Context, memory, and session continuity
 
-- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 58 comments
-- [microsoft/autogen #7748: RFC: Cross-agent shared memory store with on-demand capsule recall (agent/group/global scopes)](https://github.com/microsoft/autogen/issues/7748) — 41 comments
-- [langgenius/dify #40372: rewrite property to accept session: Session as parameter](https://github.com/langgenius/dify/issues/40372) — 40 comments
+- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 86 comments
+- [langgenius/dify #40372: rewrite property to accept session: Session as parameter](https://github.com/langgenius/dify/issues/40372) — 51 comments
+- [anthropics/claude-code #59248: Silent retention cleanup deletes session transcripts with no warning, opt-in, or recovery](https://github.com/anthropics/claude-code/issues/59248) — 48 comments
 - Existing substitutes: native resume features; yigitkonur/cli-continues
 
 ### Verification and evidence of completion
 
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 177 comments
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 56 comments
-- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 30 comments
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 191 comments
+- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 54 comments
+- [cline/cline #4384: Fix File Editing Tool Reliability - replace_in_file, write_to_file, and Diff Failures](https://github.com/cline/cline/issues/4384) — 47 comments
 - Existing substitutes: CI systems; DoneCheck; proof-of-done skills
-
-### Permissions and action control
-
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 177 comments
-- [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 22 comments
-- [microsoft/autogen #5891: Support Approval Func in BaseTool in AgentChat](https://github.com/microsoft/autogen/issues/5891) — 19 comments
-- Existing substitutes: native sandboxes; config-sync tools; container runtimes
 
 ### Cost, rate limits, and model routing
 
-- [anomalyco/opencode #37231: Error from provider (Console Go): Upstream request failed](https://github.com/anomalyco/opencode/issues/37231) — 18 comments
-- [modelcontextprotocol/servers #4162: filesystem: recursive search can hang on macOS CloudStorage / lazy provider paths](https://github.com/modelcontextprotocol/servers/issues/4162) — 15 comments
-- [ollama/ollama #8967: when using deepseek-r1:1.5b cannot get token usage](https://github.com/ollama/ollama/issues/8967) — 8 comments
+- [ollama/ollama #2006: Rate limit download speed on pulling new models](https://github.com/ollama/ollama/issues/2006) — 90 comments
+- [anomalyco/opencode #49433: Error from provider (Console): OpenCode's free tier can only be used from within OpenCode](https://github.com/anomalyco/opencode/issues/49433) — 47 comments
+- [ollama/ollama #16714: Ollama Cloud - Prompt Cache Support](https://github.com/ollama/ollama/issues/16714) — 38 comments
 - Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
 
-### Observability, audit, and replay
+### Permissions and action control
 
-- [langchain-ai/langgraph #8039: durability="sync": put_writes/put persistence order is unenforced, so post-crash recovery (replay vs re-execute) is host-dependent](https://github.com/langchain-ai/langgraph/issues/8039) — 39 comments
-- [openai/codex #28058: Regression: encrypted MultiAgentV2 messages remove readable task audit trail](https://github.com/openai/codex/issues/28058) — 36 comments
-- [modelcontextprotocol/servers #3537: Security Audit: Unconstrained string parameters across all official servers](https://github.com/modelcontextprotocol/servers/issues/3537) — 16 comments
-- Existing substitutes: Langfuse; Phoenix; Opik; OpenTelemetry
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 191 comments
+- [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 26 comments
+- [openai/codex #20883: Codex Desktop should use a project-scoped MCP process pool instead of starting MCP per session](https://github.com/openai/codex/issues/20883) — 22 comments
+- Existing substitutes: native sandboxes; config-sync tools; container runtimes
+
+### MCP and tool interoperability
+
+- [open-webui/open-webui #19313: feat: User specific MCP headers](https://github.com/open-webui/open-webui/issues/19313) — 46 comments
+- [modelcontextprotocol/servers #447: filesystem MCP server doesn't support legal Windows pathnames in claude_desktop_config.json](https://github.com/modelcontextprotocol/servers/issues/447) — 27 comments
+- [openai/codex #20883: Codex Desktop should use a project-scoped MCP process pool instead of starting MCP per session](https://github.com/openai/codex/issues/20883) — 22 comments
+- Existing substitutes: official MCP SDKs; FastMCP; MCP registries
 
 ## Manual quality review
 
