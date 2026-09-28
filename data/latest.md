@@ -1,4 +1,4 @@
-# AI needs radar — 2026-09-21
+# AI needs radar — 2026-09-28
 
 Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 
@@ -9,48 +9,48 @@ Snapshot: **2,100 recent issues** from **21 active AI repositories**.
 | Rank | Need | Issues | Repos | 3+ matches | Saturation | Priority signal |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Context, memory, and session continuity | 248 | 21 | 21 | 4/5 | 63.0 |
-| 2 | Verification and evidence of completion | 94 | 20 | 12 | 3/5 | 56.8 |
-| 3 | Cost, rate limits, and model routing | 153 | 20 | 16 | 5/5 | 46.2 |
-| 4 | Permissions and action control | 74 | 17 | 11 | 3/5 | 45.1 |
-| 5 | MCP and tool interoperability | 103 | 18 | 15 | 5/5 | 39.3 |
-| 6 | Observability, audit, and replay | 72 | 18 | 12 | 5/5 | 32.9 |
-| 7 | Evals and reproducible quality | 61 | 17 | 10 | 5/5 | 26.6 |
+| 2 | Verification and evidence of completion | 98 | 20 | 12 | 3/5 | 57.2 |
+| 3 | Permissions and action control | 77 | 18 | 11 | 3/5 | 48.2 |
+| 4 | Cost, rate limits, and model routing | 151 | 19 | 16 | 5/5 | 43.3 |
+| 5 | MCP and tool interoperability | 102 | 19 | 15 | 5/5 | 42.1 |
+| 6 | Observability, audit, and replay | 88 | 18 | 12 | 5/5 | 34.5 |
+| 7 | Evals and reproducible quality | 61 | 16 | 7 | 5/5 | 20.1 |
 
 ## Evidence examples
 
 ### Context, memory, and session continuity
 
-- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 86 comments
-- [langgenius/dify #40372: rewrite property to accept session: Session as parameter](https://github.com/langgenius/dify/issues/40372) — 51 comments
-- [anthropics/claude-code #59248: Silent retention cleanup deletes session transcripts with no warning, opt-in, or recovery](https://github.com/anthropics/claude-code/issues/59248) — 48 comments
+- [langchain-ai/langgraph #7417: Long tool calls (~180s+) silently re-executed from checkpoint on LangGraph Cloud](https://github.com/langchain-ai/langgraph/issues/7417) — 83 comments
+- [anthropics/claude-code #82056: A session cannot determine whether its auto-memory index loaded whole, truncated, or not at all](https://github.com/anthropics/claude-code/issues/82056) — 58 comments
+- [langgenius/dify #40372: rewrite property to accept session: Session as parameter](https://github.com/langgenius/dify/issues/40372) — 56 comments
 - Existing substitutes: native resume features; yigitkonur/cli-continues
 
 ### Verification and evidence of completion
 
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 191 comments
-- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 54 comments
-- [cline/cline #4384: Fix File Editing Tool Reliability - replace_in_file, write_to_file, and Diff Failures](https://github.com/cline/cline/issues/4384) — 47 comments
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 205 comments
+- [microsoft/autogen #7525: Feature: Agent trust verification via MoltBridge for cross-org multi-agent scenarios](https://github.com/microsoft/autogen/issues/7525) — 56 comments
+- [microsoft/autogen #7770: Safety Report: AI Agent Guardrails Do Not Work — 56-Day Proof (06K Loss)](https://github.com/microsoft/autogen/issues/7770) — 30 comments
 - Existing substitutes: CI systems; DoneCheck; proof-of-done skills
-
-### Cost, rate limits, and model routing
-
-- [ollama/ollama #2006: Rate limit download speed on pulling new models](https://github.com/ollama/ollama/issues/2006) — 90 comments
-- [anomalyco/opencode #49433: Error from provider (Console): OpenCode's free tier can only be used from within OpenCode](https://github.com/anomalyco/opencode/issues/49433) — 47 comments
-- [ollama/ollama #16714: Ollama Cloud - Prompt Cache Support](https://github.com/ollama/ollama/issues/16714) — 38 comments
-- Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
 
 ### Permissions and action control
 
-- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 191 comments
-- [microsoft/autogen #7528: Proposal: Capability-scoped tool authorization for AutoGen multi-agent pipelines](https://github.com/microsoft/autogen/issues/7528) — 26 comments
-- [openai/codex #20883: Codex Desktop should use a project-scoped MCP process pool instead of starting MCP per session](https://github.com/openai/codex/issues/20883) — 22 comments
+- [anthropics/claude-code #60705: Model behavior: /goal Stop-hook directive cited as authorization for unrequested actions; absence-from-search treated as evidence of absence; structure-as-substance under pushback](https://github.com/anthropics/claude-code/issues/60705) — 205 comments
+- [openai/codex #25319: Scope Codex VS Code chats to the current workspace/project](https://github.com/openai/codex/issues/25319) — 41 comments
+- [openai/codex #45119: macOS 14.2: sandbox startup fails with unbound variable TIOCSTI](https://github.com/openai/codex/issues/45119) — 34 comments
 - Existing substitutes: native sandboxes; config-sync tools; container runtimes
+
+### Cost, rate limits, and model routing
+
+- [anthropics/claude-code #29579: [BUG] API Error: Rate limit reached despite Claude Max subscription and only 16% usage](https://github.com/anthropics/claude-code/issues/29579) — 154 comments
+- [langfuse/langfuse #16077: bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00](https://github.com/langfuse/langfuse/issues/16077) — 17 comments
+- [BerriAI/litellm #43165: [Bug]: Router fallback returns null response body after successful fallback on primary timeout (non-streaming)](https://github.com/BerriAI/litellm/issues/43165) — 15 comments
+- Existing substitutes: LiteLLM; Portkey; OpenRouter; Manifest
 
 ### MCP and tool interoperability
 
-- [open-webui/open-webui #19313: feat: User specific MCP headers](https://github.com/open-webui/open-webui/issues/19313) — 46 comments
-- [modelcontextprotocol/servers #447: filesystem MCP server doesn't support legal Windows pathnames in claude_desktop_config.json](https://github.com/modelcontextprotocol/servers/issues/447) — 27 comments
-- [openai/codex #20883: Codex Desktop should use a project-scoped MCP process pool instead of starting MCP per session](https://github.com/openai/codex/issues/20883) — 22 comments
+- [langfuse/langfuse #12738: MCP Server: Support SSO/OIDC authentication as alternative to static API keys](https://github.com/langfuse/langfuse/issues/12738) — 42 comments
+- [anthropics/claude-code #36024: Support multiple Gmail accounts in MCP integration](https://github.com/anthropics/claude-code/issues/36024) — 35 comments
+- [microsoft/autogen #7266: Enforce fail-closed defaults for untrusted MCP server integrations](https://github.com/microsoft/autogen/issues/7266) — 16 comments
 - Existing substitutes: official MCP SDKs; FastMCP; MCP registries
 
 ## Manual quality review
